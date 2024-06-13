@@ -1,0 +1,49 @@
+.message-window {
+    height: 500px; 
+    overflow-y: auto; 
+    border: 5px solid #ccc; 
+    padding: 10px; 
+}
+
+.message {
+    line-height: 0em; 
+}
+
+.message .date {
+    font-size: 14px;
+    font-family: 'cursive';
+}
+
+.message .text {
+    word-wrap: break-word; 
+    display: inline-block;
+    
+}
+
+.message .content {
+    margin-left: 0px; 
+    line-height: 1em;
+    
+}
+
+.message .sender {
+    font-weight: bold; 
+    display: inline-block; 
+}
+
+.input-style {
+    max-width: 100%;
+}
+
+.topbox{
+    float: left;
+    padding: 5px;
+    border: solid 1px black;
+
+}
+
+.activetopbox{
+    background-color: lightblue;
+}
+
+
